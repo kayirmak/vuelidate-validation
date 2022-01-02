@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/vuelidate-validation/'
+    publicPath: 'vuelidate-validation'
 }
