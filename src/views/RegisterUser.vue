@@ -550,7 +550,7 @@ input::-webkit-inner-spin-button {
         &__input {
             margin: 10px 0 0;
             height: 40px;
-            width: 95%;
+            width: 100%;
         }
         &__errors{
             position: absolute;
