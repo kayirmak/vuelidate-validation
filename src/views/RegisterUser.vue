@@ -492,6 +492,7 @@ export default {
     font-family: 'Didact Gothic';
 }
 label {
+    display: block;
     font-weight: 600;
 }
 input[type=checkbox],
@@ -566,7 +567,6 @@ input::-webkit-inner-spin-button {
             position: absolute;
             color: red;
             top: 0;
-            right: -7px;
             font-size: 20px;
             font-weight: 500;
         }
@@ -668,6 +668,15 @@ input::-webkit-inner-spin-button {
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
+}
+
+@media (max-width: 768px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+    .form-btn {
+        margin-top: 20px;
+    }
 }
 </style>
 
